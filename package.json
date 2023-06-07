@@ -1,8 +1,19 @@
 {
   "name": "tailwind-ui-kit-tutorial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/index.js",
   "license": "MIT",
+  "repository": "https://github.com/imanmalekian31/tailwind-ui-kit-tutorial",
+  "bugs": "https://github.com/imanmalekian31/tailwind-ui-kit-tutorial/issues",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "ui",
+    "uikit",
+    "ui-kit",
+    "plugin",
+    "tailwind-plugin"
+  ],
   "files": [
     "dist/*"
   ],
