@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-ui-kit-tutorial",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build:components:css": "postcss src/components/index.css -o dist/components.css",
+    "build:components:js": "prejss-cli dist/components.css --format commonjs",
+    "build:components": "yarn build:components:css && yarn build:components:js",
+    "build:utilities:css": "postcss src/utilities/index.css -o dist/utilities.css",
+    "build:utilities:js": "prejss-cli dist/utilities.css --format commonjs",
+    "build:utilities": "yarn build:utilities:css && yarn build:utilities:js",
+    "build": "yarn build:components && yarn build:utilities"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "prejss-cli": "^0.3.3"
+  }
+}
